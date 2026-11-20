@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="제작 - 10413박현우">
+  <title>건강한 미래도시를 향한 첫걸음</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="header">
+    <div class="wrap bar">
+      <a class="brand" href="#top"><span aria-hidden="true">♻</span> 건강한 미래도시를 향한 첫 걸음</a>
+      <nav aria-label="주 메뉴">
+        <a href="#campaign">캠페인</a><a href="#difference">분리배출 효과</a><a href="#guide">배출 방법</a><a href="#reduce">쓰레기 줄이기</a><a href="#videos">참고 영상</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="campaign">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">SDGs 11 · 지속가능한 도시와 공동체</p>
+          <h1>건강한 미래도시를<br>향한 <em>첫걸음</em></h1>
+          <p class="intro">다 마신 페트병, 다 쓴 종이, 어디에 버려야할까?<br>분리수거의 방법과 그 효과에 대해 알아보세요.</p>
+          <div class="actions"><button class="button" type="button" id="open-poster" aria-haspopup="dialog">포스터 크게 보기 <span aria-hidden="true">↗</span></button></div>
+        </div>
+        <figure class="poster" id="poster">
+          <img src="./assets/poster.jpg" alt="포스터 이미지 준비 중" hidden>
+          <div class="poster-art"><span aria-hidden="true">♻</span><strong><br>포스터</strong><small>포스터 이미지 준비 중</small></div>
+          <figcaption>제작 - 10402 고예나</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="wrap section" id="difference">
+      <h2>분리배출하면 뭐가 달라질까?</h2>
+      <p class="sub">분리배출 여부를 선택해 플라스틱, 캔, 종이의 처리 과정을 비교해보자.</p>
+      <fieldset class="comparison">
+        <legend class="visually-hidden">분리배출 여부</legend>
+        <input class="visually-hidden" type="radio" name="sorting" id="sorting-yes" checked>
+        <input class="visually-hidden" type="radio" name="sorting" id="sorting-no">
+        <div class="switch">
+          <label for="sorting-yes">분리배출을 할 때</label>
+          <label for="sorting-no">분리배출을 안 할 때</label>
+        </div>
+        <div class="comparison-grid sorted">
+          <article class="route green"><h3>플라스틱</h3><p>따로 모은 투명 페트병은 티셔츠나 에코백에 쓰이는 섬유, 충전용 솜, 새 페트병의 원료가 될 수 있어요. 재생 원료를 쓰면 새 플라스틱을 만드는 데 필요한 석유 자원을 아낄 수 있어요.</p></article>
+          <article class="route green"><h3>종이류</h3><p>깨끗한 폐지는 새 종이나 골판지의 원료가 되어요. 종이팩을 폐지와 따로 모으면 우유팩의 종이 섬유를 화장지 등의 원료로 쓸 수 있어요. 이렇게 섬유를 다시 쓰면 새 종이를 만드는 데 필요한 목재를 아낄 수 있어요.</p></article>
+          <article class="route green"><h3>캔류</h3><p>캔을 알루미늄과 철 등 재질별로 선별한 뒤 녹여 새 캔이나 다른 금속 제품의 원료로 써요.</p></article>
+        </div>
+        <div class="comparison-grid mixed">
+          <article class="route sand"><h3>플라스틱</h3><p>일반쓰레기에 섞이면 재활용할 기회가 줄고, 소각하면 이산화탄소가 나와요. 매립된 페트병은 쉽게 분해되지 않고, 자연에 버려진 플라스틱은 잘게 부서져 미세플라스틱으로 토양과 바다를 오염시킬 수 있어요.</p></article>
+          <article class="route sand"><h3>종이류</h3><p>음식물이나 기름이 묻거나 다른 쓰레기와 섞이면 종이 섬유를 회수하기 어려워요. 재활용하기 어려운 종이는 소각이나 매립 등으로 처리될 수 있고, 다시 쓸 수 있는 섬유가 줄면 새 종이를 만들 목재가 더 필요해요.</p></article>
+          <article class="route sand"><h3>캔류</h3><p>캔을 일반쓰레기와 섞어 버리면 재활용 선별 과정에서 금속을 회수할 기회가 줄어들어요. 회수하지 못한 금속을 새 원료로 대신하려면 광석을 캐고 가공하는 데 자원과 에너지가 들어요.</p></article>
+        </div>
+      </fieldset>
+    </section>
+
+    <section class="tint" id="guide"><div class="wrap section">
+      <h2>이거 어디에 버려요?</h2>
+      <p class="sub">쓰레기들을 어디에 버리면 좋을지 확인해보자.</p>
+      <div class="table-card"><table>
+        <thead><tr><th scope="col">품목</th><th scope="col">배출 안내</th><th scope="col">버리기 전에</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">페트병(생수병, 음료 페트병 등)</th><td>플라스틱</td><td>내용물을 비우고 라벨을 떼어내요.</td></tr>
+          <tr><th scope="row">음료 캔</th><td>캔류</td><td>음료를 비우고 헹군 뒤, 안에 넣은 빨대나 휴지는 빼요.</td></tr>
+          <tr><th scope="row">종이(a4 용지 등)</th><td>학교의 종이컵 배출 안내 확인</td><td>내용물을 비우고 헹군 뒤 뚜껑과 빨대를 따로 분리해요.</td></tr>
+          <tr><th scope="row">비닐</th><td>비닐류</td><td>부스러기를 털어내요. 오염을 제거하기 어렵다면 일반쓰레기로 버려요.</td></tr>
+          <tr><th scope="row">사용한 휴지</th><td>일반쓰레기</td><td>종이류 수거함에는 넣지 않아요.</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">품목별 세부 기준을 더 알아보고싶다면? <a href="https://wasteguide.or.kr/front/bbsList.do?bbsId=BBS_0003">[분리의정석 배출요령]</a></p>
+      <div class="examples">
+        <h3>분리배출이 어려운 순간</h3>
+        <div class="example-grid">
+          <article class="example">
+            <span class="example-icon" aria-hidden="true">🥤</span>
+            <h4>음료가 남은 캔</h4>
+            <p><strong>왜?</strong> 남은 음료가 흘러 다른 재활용품까지 오염시킬 수 있어요.</p>
+            <p><strong>버리기 전</strong> 내용물을 비우고 물로 헹군 뒤 캔류 수거함에 넣어요.</p>
+          </article>
+          <article class="example">
+            <span class="example-icon" aria-hidden="true">🍕</span>
+            <h4>기름이 밴 종이</h4>
+            <p><strong>왜?</strong> 기름이나 음식물이 묻은 부분은 종이 재활용이 어려워요.</p>
+            <p><strong>버리기 전</strong> 오염된 부분은 일반쓰레기로 버리고, 깨끗한 종이 부분은 떼어 종이류로 배출해요.</p>
+          </article>
+          <article class="example">
+            <span class="example-icon" aria-hidden="true">🧃</span>
+            <h4>빨대가 꽂힌 종이컵</h4>
+            <p><strong>왜?</strong> 컵과 뚜껑, 빨대는 재질이나 배출 방법이 다를 수 있어요.</p>
+            <p><strong>버리기 전</strong> 컵을 비우고 헹군 뒤 뚜껑과 빨대를 따로 떼어서 구분한 뒤 버려요.</p>
+          </article>
+        </div>
+      </div>
+    </div></section>
+
+    <section class="wrap section" id="reduce">
+      <h2>일상에서 쓰레기를 줄이는 방법</h2>
+      <p class="sub">평범한 일상에서 쓰레기를 줄이는 방법을 알아보자.</p>
+      <div class="example-grid">
+        <article class="example">
+          <span class="example-icon" aria-hidden="true">🚰</span>
+          <h3>텀블러 가져오기</h3>
+          <p>텀블러를 챙기고 물을 채워 마셔요. 일회용 컵이나 생수병을 쓰는 횟수를 줄일 수 있어요.</p>
+        </article>
+        <article class="example">
+          <span class="example-icon" aria-hidden="true">📝</span>
+          <h3>종이 뒷면 다시 쓰기</h3>
+          <p>한쪽만 인쇄한 종이의 빈 뒷면은 수학 문제 풀이, 메모, 발표 초안에 써 봐요.</p>
+        </article>
+        <article class="example">
+          <span class="example-icon" aria-hidden="true">🖨️</span>
+          <h3>필요한 만큼만 인쇄하기</h3>
+          <p>인쇄하기 전에 필요한 쪽과 부수를 확인해요. 여러 쪽이 필요하면 양면 인쇄로 종이 사용량을 줄여요.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap section" id="videos">
+      <h2>영상으로 더 알아보기</h2>
+      <div class="videos">
+        <article><p class="eyebrow">KBS 뉴스</p><h3>플라스틱 쓰레기는 어디로 갈까?</h3><p>해양 쓰레기의 영향과 수거한 플라스틱이 재활용되는 사례를 살펴봐요.</p><a href="https://www.youtube.com/watch?v=0jzso5gR9qQ">해안 쓰레기와 재활용 영상 보기 ↗</a></article>
+        <article><p class="eyebrow">환경부</p><h3>투명 페트병은 어떻게 버릴까?</h3><p>페트병의 배출과 재활용 과정을 알아봐요.</p><a href="https://www.youtube.com/watch?v=ZNmfgKXvjxY&amp;t=94s">페트병 분리배출 영상 보기 ↗</a></article>
+        <article id="zero-waste"><p class="eyebrow">은평구청</p><h3>생활 속 쓰레기는 어떻게 줄일까?</h3><p>물건을 다시 쓰고 쓰레기를 올바르게 분리배출하는 생활 속 실천을 알아봐요.</p><a href="https://www.youtube.com/watch?v=LJfy-03Wmsg">제로웨이스트 실전편 보기 ↗</a></article>
+      </div>
+    </section>
+  </main>
+  <dialog id="poster-dialog" aria-labelledby="poster-heading">
+    <div class="dialog-bar">
+      <h2 id="poster-heading">분리배출 포스터</h2>
+      <form method="dialog"><button type="submit" autofocus>닫기</button></form>
+    </div>
+    <img id="enlarged-poster" alt="분리배출 안내 포스터" hidden>
+    <p id="poster-status">포스터 이미지 준비 중</p>
+  </dialog>
+  <script src="./poster.js" defer></script>
+</body>
+</html>
